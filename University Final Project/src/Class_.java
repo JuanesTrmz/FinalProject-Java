@@ -1,12 +1,12 @@
 import java.util.List;
 
-public class Class {
+public class Class_ {
     private String name;
     private int classroom;
     protected List<Student> studentsList;
     protected Teacher teacher;
 
-    public Class(String name, int classroom, List<Student> studentsList, Teacher teacher) {
+    public Class_(String name, int classroom, List<Student> studentsList, Teacher teacher) {
         this.name = name;
         this.classroom = classroom;
         this.studentsList = studentsList;
