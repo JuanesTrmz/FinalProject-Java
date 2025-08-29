@@ -1,8 +1,9 @@
 public class TeacherFullTime extends Teacher{
     private float experienceYears;
 
-    public TeacherFullTime(String name, int experienceYears) {
+    public TeacherFullTime(String name, float baseSalary, int experienceYears) {
         super(name);
+        setBaseSalary(baseSalary);
         this.experienceYears = experienceYears;
     }
 
